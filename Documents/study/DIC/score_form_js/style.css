@@ -1,0 +1,47 @@
+.rank{
+  background-color: #3c99cc;
+  display: inline-block;
+  width:60px;
+  line-height:30px;
+  vertical-align: middle;
+  text-align: center;
+  border-radius:3px;
+  color:white;
+  font-size:15px;
+}
+
+.judge{
+  background-color: #47b666;
+  display: inline-block;
+  width:60px;
+  line-height:30px;
+  vertical-align: middle;
+  text-align: center;
+  border-radius:3px;
+  color:white;
+  font-size:15px;
+}
+.final{
+  background-color: #FBAB5B;
+  display: inline-block;
+  width:120px;
+  line-height:30px;
+  vertical-align: middle;
+  text-align: center;
+  border-radius:3px;
+  color:white;
+  font-size:15px;
+}
+
+.final_result{
+  background-color: #d5edf6;
+  color:#08718D;
+  display: inline-block;
+  width:280px;
+  line-height:50px;
+  vertical-align: middle;
+  text-align: center;
+  border-radius:3px;
+  font-size:15px;
+  font-weight:bold;
+}

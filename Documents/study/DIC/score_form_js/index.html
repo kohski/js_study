@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="app">
+    <p>国語：<input type="text" v-model:value="national_language"></p>
+    <p>数学：<input type="text" v-model:value="math"></p>
+    <p>英語：<input type="text" v-model:value="english"></p>
+    <p>理科：<input type="text" v-model:value="science"></p>
+    <p>社会：<input type="text" v-model:value="society"></p>
+    <p>合計点：{{ getTotal }}</p>
+    <p>平均点：{{ getAverage }}</p>
+    <label class="rank" v-on:click="getRank()">ランク</label> : {{ rank }}
+    <br>
+    <br>
+    <label class="judge" v-on:click="getJudge()">判定</label> : {{ judge }}
+    <br>
+    <br>
+    <label class="final" v-on:click="getFinalJudge()">最終ジャッジ</label> : 
+    <span class="final_result">{{ final }} </span>
+
+  </div>  
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.9/dist/vue.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
